@@ -200,7 +200,7 @@ header {
 /* As imagens dentro dos slides são ajustadas para cobrir toda a área e são centralizadas. */
 
 .swiper .swiper-wrapper .swiper-slide .banner {
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     position: absolute;
     top: 0;
     left: 0;
@@ -275,11 +275,13 @@ header {
 /* As imagens no banner têm largura e altura máximas de 790px e ocupam 50% do contêiner. */
 
 .swiper .swiper-wrapper .swiper-slide .banner .left {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: 120px;
+    margin-top: 110px;
+    width: 100%;
+    height: 80vh;
 }
 /* O conteúdo à esquerda do banner é exibido em uma coluna flexível, espaçado uniformemente. */
 
@@ -300,7 +302,7 @@ header {
 
 .banner .left .features .rating .score {
     padding: 15px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 400;
     color: var(--primary);
     background: #ffffff;
@@ -349,7 +351,7 @@ header {
 
 .banner h1 {
     color: #ffffff;
-    font-size: 5em;
+    font-size: 4em;
     letter-spacing: 5px;
     line-height: 0.9;
     z-index: 10;
@@ -359,8 +361,9 @@ header {
 /* O título 'h1' do banner tem cor branca, fonte grande (5em), espaçamento entre letras de 5px, altura da linha 0.9, z-index 10 e é exibido em maiúsculas. */
 
 .swiper .swiper-wrapper .swiper-slide .banner .right {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     position: relative;
+    max-height: 500px;
     /* height: 100vh; */
     width: 450px;
     display: flex;
@@ -368,7 +371,7 @@ header {
     justify-content: space-around;
     align-items: flex-end;
     z-index: 100;
-    margin-top: -180px;
+    margin-right: 10px;
 }
 /* A seção à direita no banner é posicionada de forma relativa, ocupa 100vh de altura, tem largura máxima de 450px, layout em coluna e alinhamento à direita. */
 
@@ -475,7 +478,7 @@ footer {
 
     .swiper .swiper-wrapper .swiper-slide .banner .left .features {
         max-width: 100%;
-        border: 1px solid black;
+        /* border: 1px solid black; */
     }
 
     .swiper .swiper-wrapper .swiper-slide .banner .left .features .pricing {
@@ -490,7 +493,7 @@ footer {
     }
 
     .swiper .swiper-wrapper .swiper-slide .banner .right .description {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         transform: translateY(-270px);
     }
 
